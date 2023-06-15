@@ -1,5 +1,5 @@
 # AndroidCourseDay22
-Day-22 of Android Course:- How to user Recycler View in Android Application
+Day-22 of Android Course:- How to user Recycler View in Android Application.
 <hr><hr>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
