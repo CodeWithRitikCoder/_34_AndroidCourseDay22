@@ -60,8 +60,17 @@ class MainActivity2 : AppCompatActivity() {
             "Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply "
         )
         val personNameArray= arrayOf("Ritik verma", "Sundar pichai", "Rihit sharma", "Priyanka chopra",
-            "Hritik roshan", "Kajal agrawal", "Vijay sharma", "Elon musk", "Shruti kumari", "Kajal", "Name1", "Name2", "Name3",
-            "Name4", "Name5", "Name6", "Name7", "Name8", "Name9", "Name10", "Name11")
+            "Hritik roshan", "Kajal agrawal", "Vijay sharma", "Elon musk", "Shruti kumari", "Kajal", "Name1",
+            "Name2", "Name3", "Name4", "Name5", "Name6", "Name7", "Name8", "Name9", "Name10", "Name11"
+        )
+        val newsContentArray= arrayOf(getString(R.string.newsContent), getString(R.string.newsContent),
+            getString(R.string.newsContent), getString(R.string.newsContent), getString(R.string.newsContent),
+            getString(R.string.newsContent), getString(R.string.newsContent), getString(R.string.newsContent),
+            getString(R.string.newsContent), getString(R.string.newsContent), getString(R.string.newsContent),
+            getString(R.string.newsContent), getString(R.string.newsContent), getString(R.string.newsContent),
+            getString(R.string.newsContent), getString(R.string.newsContent), getString(R.string.newsContent),
+            getString(R.string.newsContent), getString(R.string.newsContent), getString(R.string.newsContent),
+            getString(R.string.newsContent))
 
         myRecyclerView= binding.recyclerView
 
@@ -72,11 +81,24 @@ class MainActivity2 : AppCompatActivity() {
 
         //foreach loop to prepare data
         for(index in newsImageArray.indices){
-            val news= News(newsHeadingArray[index], newsImageArray[index], personNameArray[index])
+            val news= News(newsHeadingArray[index], newsImageArray[index], personNameArray[index], newsContentArray[index])
             newsArrayList.add(news)
         }
 
-        myRecyclerView.adapter= MyAdapter(newsArrayList, this)
+        val myAdapter= MyAdapter(newsArrayList, this)
+        myRecyclerView.adapter= myAdapter
+
+        myAdapter.setOnItemClickListener(object: MyAdapter.onItemClickListener{
+            override fun onItemClick(position: Int) {
+                //on Clicking each item, what action do you want to perform
+                val intentToOpenNewsDetailActivity= Intent(applicationContext, NewsDetailActivity::class.java)
+                intentToOpenNewsDetailActivity.putExtra("heading", newsArrayList[position].newsHeading)
+                intentToOpenNewsDetailActivity.putExtra("content", newsArrayList[position].newsContent)
+                intentToOpenNewsDetailActivity.putExtra("image", newsArrayList[position].newsImage)
+                startActivity(intentToOpenNewsDetailActivity)
+
+            }
+        })
 
 
         //Working on the Camera Button is here.

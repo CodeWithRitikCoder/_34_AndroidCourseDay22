@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/activity_main2_bg"
+    tools:context=".NewsDetailActivity">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageViewForNewsImage"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="280dp"-->
+<!--        app:srcCompat="@drawable/greet_image1"-->
+<!--        tools:layout_editor_absoluteX="0dp"-->
+<!--        tools:layout_editor_absoluteY="7dp" />-->
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageViewForNewsImage"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp"
+        app:shapeAppearanceOverlay="@style/softCorner"
+        android:src="@drawable/greet_image1">
+
+    </com.google.android.material.imageview.ShapeableImageView>
+
+    <TextView
+        android:id="@+id/textViewForNewsHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_margin="15sp"
+        android:textColor="#FFEB3B"
+        android:padding="10dp"
+        android:shadowRadius="@integer/material_motion_duration_long_1"
+        android:background="@drawable/text_view_bg"
+        android:text="@string/newsHeading" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        tools:layout_editor_absoluteX="-74dp"
+        tools:layout_editor_absoluteY="-26dp">
+
+        <TextView
+            android:id="@+id/textViewForNewsContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="#0710C8"
+            android:text="@string/newsContent" />
+
+    </ScrollView>
+
+</LinearLayout>
