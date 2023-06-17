@@ -13,7 +13,7 @@ Day-22 of Android Course:- How to user Recycler View in Android Application.
 <table border="5px" style="border-collapse: collapse;">
   <tr>
     <td>
-      <img align="center" src="https://github.com/CodeWithRitikCoder/AndroidCourseDay22/blob/master/app/src/main/res/drawable/screen_short_1.jpg" alt="ScreenShort 1 of Application" height="500" width="250" />
+      <img align="center" src="https://github.com/CodeWithRitikCoder/AndroidCourseDay22/blob/master/app/src/main/res/drawable/screen_short_1.png" alt="ScreenShort 1 of Application" height="500" width="250" />
     </td>
     <td>
       <img align="center" src="https://github.com/CodeWithRitikCoder/AndroidCourseDay22/blob/master/app/src/main/res/drawable/screen_short_2.jpg" alt="ScreenShort 2 of Application" height="500" width="250" />
