@@ -16,32 +16,32 @@ Day-22 of Android Course:- How to user Recycler View in Android Application.
       <img align="center" src="https://github.com/CodeWithRitikCoder/AndroidCourseDay22/blob/master/app/src/main/res/drawable/screen_short_1.png" alt="ScreenShort 1 of Application" height="500" width="250" />
     </td>
     <td>
-      <img align="center" src="https://github.com/CodeWithRitikCoder/AndroidCourseDay22/blob/master/app/src/main/res/drawable/screen_short_2.jpg" alt="ScreenShort 2 of Application" height="500" width="250" />
+      <img align="center" src="https://github.com/CodeWithRitikCoder/AndroidCourseDay22/blob/master/app/src/main/res/drawable/screen_short_2.png" alt="ScreenShort 2 of Application" height="500" width="250" />
     </td>
     <td>
-      <img align="center" src="https://github.com/CodeWithRitikCoder/AndroidCourseDay22/blob/master/app/src/main/res/drawable/screen_short_3.jpg" alt="ScreenShort 3 of Application" height="500" width="250" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img align="center" src="https://github.com/CodeWithRitikCoder/AndroidCourseDay22/blob/master/app/src/main/res/drawable/screen_short_4.jpg" alt="ScreenShort 4 of Application" height="500" width="250" />
-    </td>
-    <td>
-      <img align="center" src="https://github.com/CodeWithRitikCoder/AndroidCourseDay22/blob/master/app/src/main/res/drawable/screen_short_5.jpg" alt="ScreenShort 5 of Application" height="500" width="250" />
-    </td>
-    <td>
-      <img align="center" src="https://github.com/CodeWithRitikCoder/AndroidCourseDay22/blob/master/app/src/main/res/drawable/screen_short_6.jpg" alt="ScreenShort 6 of Application" height="500" width="250" />
+      <img align="center" src="https://github.com/CodeWithRitikCoder/AndroidCourseDay22/blob/master/app/src/main/res/drawable/screen_short_3.png alt="ScreenShort 3 of Application" height="500" width="250" />
     </td>
   </tr>
   <tr>
     <td>
-      <img align="center" src="https://github.com/CodeWithRitikCoder/AndroidCourseDay22/blob/master/app/src/main/res/drawable/screen_short_7.jpg" alt="ScreenShort 4 of Application" height="500" width="250" />
+      <img align="center" src="https://github.com/CodeWithRitikCoder/AndroidCourseDay22/blob/master/app/src/main/res/drawable/screen_short_4.png" alt="ScreenShort 4 of Application" height="500" width="250" />
     </td>
     <td>
-      <img align="center" src="https://github.com/CodeWithRitikCoder/AndroidCourseDay22/blob/master/app/src/main/res/drawable/screen_short_8.jpg" alt="ScreenShort 5 of Application" height="500" width="250" />
+      <img align="center" src="https://github.com/CodeWithRitikCoder/AndroidCourseDay22/blob/master/app/src/main/res/drawable/screen_short_5.png" alt="ScreenShort 5 of Application" height="500" width="250" />
     </td>
     <td>
-      <img align="center" src="https://github.com/CodeWithRitikCoder/AndroidCourseDay22/blob/master/app/src/main/res/drawable/screen_short_9.jpg" alt="ScreenShort 6 of Application" height="500" width="250" />
+      <img align="center" src="https://github.com/CodeWithRitikCoder/AndroidCourseDay22/blob/master/app/src/main/res/drawable/screen_short_6.png" alt="ScreenShort 6 of Application" height="500" width="250" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img align="center" src="https://github.com/CodeWithRitikCoder/AndroidCourseDay22/blob/master/app/src/main/res/drawable/screen_short_7.png" alt="ScreenShort 4 of Application" height="500" width="250" />
+    </td>
+    <td>
+      <img align="center" src="https://github.com/CodeWithRitikCoder/AndroidCourseDay22/blob/master/app/src/main/res/drawable/screen_short_8.png" alt="ScreenShort 5 of Application" height="500" width="250" />
+    </td>
+    <td>
+      <img align="center" src="https://github.com/CodeWithRitikCoder/AndroidCourseDay22/blob/master/app/src/main/res/drawable/screen_short_9.png" alt="ScreenShort 6 of Application" height="500" width="250" />
     </td>
   </tr>
 </table>
